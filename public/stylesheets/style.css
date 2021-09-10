@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+/* Header */
+header {
+  position: fixed;
+  z-index:100;
+  background: #82143c;
+  width: 100%;
+  top: 0;
+}
+
+header .navbar-dark .navbar-toggler {
+  padding: 3.7px 5.6px 2.4px 5.6px;
+  color: #fff;
+  border: 2px solid #fff;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 10%;
+  cursor: pointer;
+  transition: 0.3s;
+  transition-property: background, color;
+}
+
+header .navbar-dark .navbar-toggler:hover{
+ background: #fff;
+ color: #82143c; 
+}
+
+/* Body */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* About Section */
+.home {
+  background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg");
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+/* Footer */
+footer {
+  margin-top: auto;
+  bottom: 0;
+  background: #82143c;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  color: #fff;
+  font-size: small;
+}
+
+footer .social-icons {
+  color: #fff;
+  margin: 5px 5px;
+  display: inline-block;
+  text-align: center;
+  height: 30px;
+  width: 30px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  transition: 0.3s background,color;
+}
+
+footer .social-icons:hover {
+  background: #fff;
+  color: #82143c;
+}
+
+footer .social-icons i {
+  font-size: 16px;
+  margin-top: 6px;
+}
