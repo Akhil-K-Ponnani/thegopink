@@ -4,19 +4,31 @@
         <span class="far fa-bars navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></span>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#"><i class="fal fa-home"></i> Home<span class="sr-only">(current)</span></a>
+                <li class="nav-item {{home}}">
+                    <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fal fa-box-ballot"></i> Services</a>
+                <li class="nav-item {{service}}">
+                    <a class="nav-link" href="/service">Services</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fal fa-info-circle"></i> About Us</a>
+                <li class="nav-item {{about}}">
+                    <a class="nav-link" href="/about">About Us</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fal fa-phone-rotary"></i> Contact Us</a>
+                <li class="nav-item {{contact}}">
+                    <a class="nav-link" href="/contact">Contact Us</a>
                 </li>
             </ul>
         </div>
     </nav>
+    <div class="banner">
+        <div class="container">
+            <div class="banner-content">
+                <div class="banner-title">pink consultancy</div>
+                <div class="banner-quote">Your trusted HR Solutions</div>
+                <div class="banner-btn">
+                    <a href="/about" class="active mr-2">about us</a>
+                    <a href="/contact">contact us</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </header>
