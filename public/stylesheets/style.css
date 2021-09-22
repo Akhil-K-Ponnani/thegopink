@@ -193,6 +193,23 @@ header {
   margin-top: 10px;
 }
 
+/* About info section in about page */
+.about-info .icon {
+  color: #bd1f5e;
+  border: 3px solid #bd1f5e;
+  font-size: 28px;
+  text-align: center;
+  line-height: 1.8;
+  height: 53px;
+  width: 53px;
+  border-radius: 5px;
+  transition: 0.3s background;
+}
+
+.about-info .content {
+  margin-top: 10px;
+}
+
 /* Contact info section in Contact page */
 .contact-info .icon {
   color: #bd1f5e;

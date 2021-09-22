@@ -7,8 +7,8 @@ router.get('/', (req, res)=> {
 })
 
 /* GET user service page */
-router.get('/service', (req, res)=> {
-    res.render('user/service', {service:'active'})
+router.get('/services', (req, res)=> {
+    res.render('user/services', {service:'active'})
 })
 
 /* GET user about page */
