@@ -52,6 +52,7 @@ body {
   color: #fff;
   border: none;
   border-radius: .25rem;
+  cursor: pointer;
   padding: .375rem .60rem;
   transition: 0.3s background;
 }
@@ -67,6 +68,7 @@ body {
   font-size: small;
   text-decoration: none;
   border-radius: .25rem;
+  cursor: pointer;
   padding: .375rem .60rem;
   transition: 0.3s background;
 }
